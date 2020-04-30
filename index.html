@@ -5,10 +5,10 @@
 
     <meta charset="utf-8">
     <title></title>
-    <link href="style.css" rel="stylesheet" type="text/css"> 
+    <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-</head>      
+</head>
 
 </head>
 
@@ -36,29 +36,34 @@
     <main class="form-content">
 
         <div class="title">
-            <img src="img/intuit-logo.png" alt="Intuit Logo">
-            <img src="img/mint.png" alt="Mint Logo">
-            <img src="img/quickbooks.png" alt="Quickbooks Logo">
-            <img src="img/turbotax.png" alt="Turbo Tax Logo">
+            <img class="main-logo" src="img/intuit-logo.png" alt="Intuit Logo">
+
+            <div class="logos-section">
+              <img class='logo' src="img/mint.png" alt="Mint Logo">
+              <img class='logo' src="img/quickbooks.png" alt="Quickbooks Logo">
+              <img class='logo' src="img/turbotax.png" alt="Turbo Tax Logo">
+            </div>
+
         </div>
 
         <form action="#" method="#">
-            <span>Create an Intuit account</span>
-            <span>One account for everything Intuit, including Mint.</span>
+            <h2 class='big-text'>Create an Intuit account</h2>
+            <p class="normal-text align-center">One account for everything Intuit, including Mint.</p>
             <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
 
-            <label for="email">Email address</label>
+
+            <label class="normal-text" for="email">Email address</label>
             <input id="email" type="text" name="name">
 
-            <label for="">Phone (recommended)</label>
+            <label class="normal-text" for="">Phone (recommended)</label>
             <input id="phone" type="phone" name="name">
-            <span>Standard call, messaging or data rates may apply.</span>
+            <span class="normal-text">Standard call, messaging or data rates may apply.</span>
 
-            <label for="password">Password</label>
+            <label class="normal-text" for="password">Password</label>
             <input id="password" type="phone" name="name">
 
             <button type="button" class="create-account">
-                
+
                 <span class="material-icons">
                     lock
                 </span>
@@ -74,7 +79,7 @@
                 <span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a>Terms</a> of Use.</span>
             </div>
 
-            
+
 
 
 
@@ -90,8 +95,12 @@
             <li>Security</li>
         </ul>
 
+        <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. </span>
+        <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+
     </footer>
 
+    <button type="button" name="button">Privacy Setting</button>
 
 
 

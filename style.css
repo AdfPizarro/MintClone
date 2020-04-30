@@ -1,0 +1,49 @@
+body{
+  background-color:  rgb(236, 238, 241);
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4C4C4C;
+}
+
+.title{
+  margin: auto;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #c7c7c7;
+  width: 380px;
+  margin: auto;
+}
+
+.main-logo{
+  display: block;
+  width:118px;
+  height: 35px;
+  margin: auto;
+}
+
+.logos-section{
+  display: block;
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+
+.logo{
+  display: inline-block;
+  height: 25px;
+}
+
+.big-text{
+  font-size: 24px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.normal-text{
+  font-size: 14px;
+}
+
+.align-center{
+  text-align: center;
+}
