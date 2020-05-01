@@ -2,19 +2,12 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
-    <title></title>
+    <title>Mint Clone</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
 </head>
-
-</head>
-
-
                                       <!-- Here starts the Page (BODY) -->
-
 
 <body>
 
@@ -23,7 +16,7 @@
             <p class="head-paragraph small-text">
                 Already have an Intuit account?
             </p>
-            <a id="head-link" class="small-text" href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3D532a382c-22f5-4431-9a7a-1a59c2857a58%26adobe_mc%3DMCMID%253D05507580930303543143365684237148812331%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1588280441%26ivid%3D532a382c-22f5-4431-9a7a-1a59c2857a58#" class="password">I forgot my User ID or Password</a>
+            <a id="head-link" class="small-text" href="#">I forgot my User ID or Password</a>
         </div>
         <button type="button" class="sign-up sign-in-button">
             <span class="material-icons">
@@ -47,7 +40,7 @@
 
         </div>
 
-        <form action="#" method="#">
+        <form action="www.mint.com" method="post">
           <div class="form-container">
             <h2 class='big-text main-text'>Create an Intuit account</h2>
 
@@ -58,35 +51,33 @@
 
             <div class="input-section" >
               <label class="normal-text" for="email">Email address</label>
-              <div class="input-box" id="section-email" style="">
-                <input id="email" type="text" name="name">
+              <div class="input-box" id="section-email">
+                <input id="email" type="text" name="email">
               </div>
               <span class="error-text">Please enter a valid email address.</span>
             </div>
 
-            <div class="input-section" style="">
-              <label class="normal-text" for="">Phone (recommended)</label>
+            <div class="input-section">
+              <label class="normal-text" for="phone">Phone (recommended)</label>
               <div class="input-box" id="section-phone" style="">
-                <input id="phone" type="phone" name="name">
+                <input id="phone" type="tel" name="phone">
               </div>
                 <span class="tiny-text">Standard call, messaging or data rates may apply.</span>
                 <span class="error-text">Please enter a valid phone number including area code</span>
             </div>
 
 
-            <div class="input-section" style="">
+            <div class="input-section">
               <label class="normal-text" for="password">Password</label>
-              <div class="input-box" id="section-password" style="">
-                <input id="password" type="phone" name="name">
+              <div class="input-box" id="section-password">
+                <input id="password" type="password" name="password">
               </div>
             </div>
-            <button type="button" class="create-account">
-              <div class="button-container">
+            <button type="button" class="create-account button-container">
                 <span class="material-icons lock-icon">
                     lock
                 </span>
                 Create Account
-              </div>
             </button>
 
             <p class="privacy-form small-text italic-text gray-text">
@@ -124,9 +115,9 @@
 
 
 
-
-</body>
 <script src="main.js"></script>
+</body>
+
 
 
 </html>

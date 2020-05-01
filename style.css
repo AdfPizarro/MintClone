@@ -1,7 +1,8 @@
+/*************  Main styles  **************/
+
 body{
   background-color:  rgb(236, 238, 241);
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #4C4C4C;
 }
 a:link, a:hover, a:active, a:visited{
   text-decoration: none;
@@ -17,12 +18,6 @@ li{
   margin-right: 20px;
   padding-top: 30px;
   padding-bottom: 0px;
-
-}
-
-.title{
-  margin: auto;
-  line-height: 25px;
 }
 
 form{
@@ -35,61 +30,58 @@ form{
   margin-top: 15px;
 }
 
-.form-container {
-
-  padding: 30px;
-
-}
-
-
-
 label{
   display: block;
   margin-bottom: 6px;
 }
 
-.input-box{
-  border: solid 1px black ;
-  width: 100%;
-  height: 32px;
-  border: 1px solid #C1C5C8;
-  border-radius: 3px;
-}
-.input-box:active{
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
-  border: 1px solid #52A8EC;
+input:focus, input {
+ border: none;
+ outline-offset: 0;
+ outline: none;
 }
 
- input:focus, input {
-  border: none;
-  outline-offset: 0;
-  outline: none;
-}
 input{
-  width: 95%;
-  display:block;
-  margin-top: 6px;
-  margin-left:6px;
+ width: 95%;
+ display:block;
+ margin-top: 6px;
+ margin-left:6px;
 }
 
-
-
-
-
-.create-account{
-  width: 100%;
-  height: 44px;
-  font-size: 1.125em;
-  align-items: center;
-  display: flex;
-  margin-bottom: 18px;
-
+button{
+  background-color: #0077C5;
+  border:none;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
 }
 
-.button-container{
-  align-items: center;
+header{
+  width:280px;
+  margin-left: auto;
+  line-height: 3px;
+}
+
+footer{
+  width: 40%;
   margin: auto;
 }
+
+.material-icons{
+  text-shadow: 1px 1px gray;
+}
+
+
+/***************  Header ******************/
+.sign-up > span:nth-child(1){
+  padding-top: 5px;
+}
+
+#head-link{
+  color: #0077C5;
+}
+
+/***************  Logos *******************/
 
 .main-logo{
   display: block;
@@ -112,6 +104,8 @@ input{
   height: 25px;
 }
 
+/*****************  Text ******************/
+
 .big-text{
   font-size: 24px;
   text-align: center;
@@ -133,7 +127,7 @@ input{
   font-size: 14px;
   color: #eb3432;
   margin-top: 15px;
-  margin-bottom: : 15px;
+  margin-bottom:15px;
   display: none;
 }
 
@@ -153,7 +147,6 @@ input{
   font-style: italic;
 }
 
-
 .link-text{
   color: #0077C5;
 }
@@ -162,12 +155,21 @@ input{
   text-align: center;
 }
 
-.form-container{
-  margin: : 30px;
+.text{
+  display: inline-block;
+  text-align: right;
 }
 
-.sign-up > span:nth-child(1){
-  padding-top: 5px;
+/****************  Form *******************/
+
+.form-container {
+  padding: 30px;
+  margin: 30px
+}
+
+.title{
+  margin: auto;
+  line-height: 25px;
 }
 
 .description{
@@ -175,18 +177,25 @@ input{
   line-height: 2px;
 }
 
-.material-icons{
-  text-shadow: 1px 1px gray;
-
+.form-content{
+  width: 600px;
+  height: 80%;
+  margin:auto;
 }
 
-button{
-  background-color: #0077C5;
-  border:none;
-  border-radius: 4px;
-  color: white;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+.create-account{
+  width: 100%;
+  height: 44px;
+  font-size: 1.125em;
+  margin-bottom: 18px;
+  text-align: center;
 }
+
+.button-container{
+  align-items: center;
+  margin: auto;
+}
+
 .sign-in-button{
   font-size: 13.5px;
   display: flex;
@@ -196,36 +205,29 @@ button{
   left: 180px;
   height: 34px;
 }
+
 .sign-text-button{
   margin: auto;
 }
 
-.text{
-  display: inline-block;
-  text-align: right;
+/***************  Inputs ******************/
+
+.input-box{
+  width: 100%;
+  height: 32px;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
 }
-
-header{
-  width:280px;
-  margin-left: auto;
-  line-height: 3px;
-
-}
-#head-link{
-  color: #0077C5;
-}
-
-.form-content{
-  width: 600px;
-  height: 80%;
-  margin:auto;
-
+.input-box:active{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  border: 1px solid #52A8EC;
 }
 
 .input-section{
   margin-bottom: 50px;
 }
 
+/***************  Footer ******************/
 
 .set-button{
   position: fixed;
@@ -233,21 +235,13 @@ header{
   right:20px;
   background-color: #6B6C72;
   padding: 10px 12px;
-
 }
-
 
 .form-footer{
   background-color: #ECEEF1;
-  width: 350pxl;
   text-align: center;
   padding: 20px;
 }
 .privacy-form{
   text-align: center;
-}
-
-footer{
-  width: 40%;
-  margin: auto;
 }
