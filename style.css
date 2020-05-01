@@ -7,21 +7,40 @@ a:link, a:hover, a:active, a:visited{
   text-decoration: none;
 }
 
+ul{
+  list-style: none;
+
+}
+li{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+
+}
+
 .title{
   margin: auto;
   line-height: 25px;
 }
 
-form {
+form{
   background-color: rgb(255, 255, 255);
   border: 1px solid #c7c7c7;
   border-radius: 2px;
   width: 350px;
   margin: auto;
   height: 80%;
-  padding: 30px;
   margin-top: 15px;
 }
+
+.form-container {
+
+  padding: 30px;
+
+}
+
 
 
 label{
@@ -36,10 +55,15 @@ label{
   border: 1px solid #C1C5C8;
   border-radius: 3px;
 }
+.input-box:active{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  border: 1px solid #52A8EC;
+}
 
 input{
-
   border: none;
+}
+input:focus{
 
 }
 
@@ -88,7 +112,7 @@ input{
 
 .normal-text{
   font-size: 14px;
-  line-height: 25px;
+  line-height: 1em;
 }
 
 .tiny-text{
@@ -108,6 +132,19 @@ input{
   font-size:12px;
 }
 
+.gray-text{
+  color: #757575;
+}
+
+.grayOvergray-text{
+  color: #8d9096;
+}
+
+.italic-text{
+  font-style: italic;
+}
+
+
 .link-text{
   color: #0077C5;
 }
@@ -120,13 +157,18 @@ input{
   margin: : 30px;
 }
 
+.sign-up > span:nth-child(1){
+  padding-top: 5px;
+}
+
 .description{
-  padding: 20px;
+  padding: 12px;
   line-height: 2px;
 }
 
 .material-icons{
   text-shadow: 1px 1px gray;
+
 }
 
 button{
@@ -182,9 +224,21 @@ header{
   right:20px;
   background-color: #6B6C72;
   padding: 10px 12px;
-  
+
 }
 
+
+.form-footer{
+  background-color: #ECEEF1;
+  width: 350pxl;
+  text-align: center;
+  padding: 20px;
+}
 .privacy-form{
   text-align: center;
+}
+
+footer{
+  width: 40%;
+  margin: auto;
 }
