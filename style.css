@@ -60,12 +60,21 @@ label{
   border: 1px solid #52A8EC;
 }
 
-input{
+ input:focus, input {
   border: none;
+  outline-offset: 0;
+  outline: none;
 }
-input:focus{
+input{
+  width: 95%;
+  display:block;
+  margin-top: 6px;
+  margin-left:6px;
+}
 
-}
+
+
+
 
 .create-account{
   width: 100%;
