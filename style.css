@@ -9,18 +9,20 @@ a:link, a:hover, a:active, a:visited{
 
 .title{
   margin: auto;
+  line-height: 25px;
 }
 
 form {
   background-color: rgb(255, 255, 255);
   border: 1px solid #c7c7c7;
   border-radius: 2px;
-  width: 380px;
+  width: 350px;
   margin: auto;
   height: 80%;
   padding: 30px;
   margin-top: 15px;
 }
+
 
 label{
   display: block;
@@ -47,6 +49,7 @@ input{
   font-size: 1.125em;
   align-items: center;
   display: flex;
+  margin-bottom: 18px;
 
 }
 
@@ -60,6 +63,8 @@ input{
   width:118px;
   height: 35px;
   margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .logos-section{
@@ -78,6 +83,7 @@ input{
   font-size: 24px;
   text-align: center;
   font-weight: normal;
+  margin-top: 0px;
 }
 
 .normal-text{
@@ -169,7 +175,16 @@ header{
   margin-bottom: 50px;
 }
 
-.maint-text{
-  margin-top:20px;
-  margin-bottom: :20px;
+
+.set-button{
+  position: fixed;
+  bottom:2px;
+  right:20px;
+  background-color: #6B6C72;
+  padding: 10px 12px;
+  
+}
+
+.privacy-form{
+  text-align: center;
 }
