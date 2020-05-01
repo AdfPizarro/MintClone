@@ -3,6 +3,9 @@ body{
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4C4C4C;
 }
+a{
+  text-decoration: none;
+}
 
 .title{
   margin: auto;
@@ -44,6 +47,56 @@ form {
   font-size: 14px;
 }
 
+.small-text{
+  font-size:12px;
+}
+
 .align-center{
   text-align: center;
 }
+
+.material-icons{
+  text-shadow: 1px 1px gray;
+}
+
+button{
+  background-color: #0077C5;
+  border:none;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+.sign-in-button{
+  font-size: 13.5px;
+  display: flex;
+  text-align:center;
+  position: relative;
+  bottom: 28px;
+  left: 180px;
+  height: 34px;
+}
+.sign-text-button{
+  margin: auto;
+}
+
+.text{
+  display: inline-block;
+  text-align: right;
+}
+
+header{
+  width:280px; 
+  margin-left: auto;
+  line-height: 3px;
+
+}
+#head-link{
+  color: #0077C5;
+}
+.form-content{
+  width: 600px;
+  height: 80%;
+  margin:auto;
+
+}
+
