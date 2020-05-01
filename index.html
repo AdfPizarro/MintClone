@@ -30,7 +30,7 @@
                 lock
             </span>
             <span class="sign-text-button">Sign Up</span>
-            
+
         </button>
     </header>
 
@@ -48,27 +48,48 @@
         </div>
 
         <form action="#" method="#">
-            <h2 class='big-text'>Create an Intuit account</h2>
-            <p class="normal-text align-center">One account for everything Intuit, including Mint.</p>
-            <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+            <h2 class='big-text main-text'>Create an Intuit account</h2>
+
+            <div class="description align-center">
+              <p class="normal-text">One account for everything Intuit, including Mint.</p>
+              <a  class="link-text small-text" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+            </div>
 
 
-            <label class="normal-text" for="email">Email address</label>
-            <input id="email" type="text" name="name">
+            <div class="input-section">
+              <label class="normal-text" for="email">Email address</label>
+              <div class="input-box">
+                <input id="email" type="text" name="name">
+              </div>
+              <span class="error-text">Please enter a valid email address.</span>
+            </div>
 
-            <label class="normal-text" for="">Phone (recommended)</label>
-            <input id="phone" type="phone" name="name">
-            <span class="normal-text">Standard call, messaging or data rates may apply.</span>
 
-            <label class="normal-text" for="password">Password</label>
-            <input id="password" type="phone" name="name">
+            <div class="input-section">
+              <label class="normal-text" for="">Phone (recommended)</label>
+              <div class="input-box">
+                <input id="phone" type="phone" name="name">
+              </div>
+                <span class="tiny-text">Standard call, messaging or data rates may apply.</span>
+                <span class="error-text">Please enter a valid phone number including area code</span>
+            </div>
+
+
+            <div class="input-section">
+              <label class="normal-text" for="password">Password</label>
+              <div class="input-box">
+                <input id="password" type="phone" name="name">
+              </div>
+            </div>
 
             <button type="button" class="create-account">
-
+              <div class="button-container">
                 <span class="material-icons">
                     lock
                 </span>
                 Create Account
+              </div>
+
             </button>
 
             <span class="privacy-form">
@@ -79,6 +100,8 @@
             <div class="form-footer">
                 <span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a>Terms</a> of Use.</span>
             </div>
+
+
 
 
 
