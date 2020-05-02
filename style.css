@@ -36,16 +36,13 @@ label {
 }
 
 input {
-  border: none;
-  outline-offset: 0;
-  outline: none;
-}
-
-input {
   width: 95%;
   display: block;
   margin-top: 6px;
   margin-left: 6px;
+  border: none;
+  outline-offset: 0;
+  outline: none;
 }
 
 button {
