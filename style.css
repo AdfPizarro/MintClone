@@ -1,17 +1,18 @@
 /*************  Main styles  **************/
 
 body {
-  background-color:  rgb(236, 238, 241);
+  background-color: rgb(236, 238, 241);
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-a:link, a:hover, a:active, a:visited{
+
+a:link, a:hover, a:active, a:visited {
   text-decoration: none;
 }
 
 ul {
   list-style: none;
-
 }
+
 li {
   display: inline-block;
   margin-left: 20px;
@@ -35,7 +36,7 @@ label {
   margin-bottom: 6px;
 }
 
-input:focus, input {
+input, input:focus {
  border: none;
  outline-offset: 0;
  outline: none;
@@ -43,21 +44,21 @@ input:focus, input {
 
 input {
  width: 95%;
- display:block;
+ display: block;
  margin-top: 6px;
- margin-left:6px;
+ margin-left: 6px;
 }
 
 button {
-  background-color: #0077C5;
-  border:none;
+  background-color: #0077c5;
+  border: none;
   border-radius: 4px;
   color: white;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
 }
 
 header {
-  width:280px;
+  width: 280px;
   margin-left: auto;
   line-height: 3px;
 }
@@ -78,14 +79,14 @@ footer {
 }
 
 #head-link {
-  color: #0077C5;
+  color: #0077c5;
 }
 
 /***************  Logos *******************/
 
 .main-logo {
   display: block;
-  width:118px;
+  width: 118px;
   height: 35px;
   margin: auto;
   margin-bottom: 20px;
@@ -127,12 +128,12 @@ footer {
   font-size: 14px;
   color: #eb3432;
   margin-top: 15px;
-  margin-bottom:15px;
+  margin-bottom: 15px;
   display: none;
 }
 
 .small-text {
-  font-size:12px;
+  font-size: 12px;
 }
 
 .gray-text {
@@ -164,7 +165,7 @@ footer {
 
 .form-container {
   padding: 30px;
-  margin: 30px
+  margin: 30px;
 }
 
 .title {
@@ -180,7 +181,7 @@ footer {
 .form-content {
   width: 600px;
   height: 80%;
-  margin:auto;
+  margin: auto;
 }
 
 .create-account {
@@ -199,7 +200,7 @@ footer {
 .sign-in-button {
   font-size: 13.5px;
   display: flex;
-  text-align:center;
+  text-align: center;
   position: relative;
   bottom: 28px;
   left: 180px;
@@ -215,9 +216,10 @@ footer {
 .input-box {
   width: 100%;
   height: 32px;
-  border: 1px solid #C1C5C8;
+  border: 1px solid #c1c5c8;
   border-radius: 3px;
 }
+
 .input-box:active {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
   border: 1px solid #52A8EC;
@@ -231,17 +233,18 @@ footer {
 
 .set-button {
   position: fixed;
-  bottom:2px;
-  right:20px;
-  background-color: #6B6C72;
+  bottom: 2px;
+  right: 20px;
+  background-color: #6b6b72;
   padding: 10px 12px;
 }
 
 .form-footer {
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   text-align: center;
   padding: 20px;
 }
+
 .privacy-form {
   text-align: center;
 }
