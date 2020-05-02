@@ -1,6 +1,6 @@
 /*************  Main styles  **************/
 
-body{
+body {
   background-color:  rgb(236, 238, 241);
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -8,11 +8,11 @@ a:link, a:hover, a:active, a:visited{
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style: none;
 
 }
-li{
+li {
   display: inline-block;
   margin-left: 20px;
   margin-right: 20px;
@@ -20,7 +20,7 @@ li{
   padding-bottom: 0px;
 }
 
-form{
+form {
   background-color: rgb(255, 255, 255);
   border: 1px solid #c7c7c7;
   border-radius: 2px;
@@ -30,7 +30,7 @@ form{
   margin-top: 15px;
 }
 
-label{
+label {
   display: block;
   margin-bottom: 6px;
 }
@@ -41,14 +41,14 @@ input:focus, input {
  outline: none;
 }
 
-input{
+input {
  width: 95%;
  display:block;
  margin-top: 6px;
  margin-left:6px;
 }
 
-button{
+button {
   background-color: #0077C5;
   border:none;
   border-radius: 4px;
@@ -56,34 +56,34 @@ button{
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
 }
 
-header{
+header {
   width:280px;
   margin-left: auto;
   line-height: 3px;
 }
 
-footer{
+footer {
   width: 40%;
   margin: auto;
 }
 
-.material-icons{
+.material-icons {
   text-shadow: 1px 1px gray;
 }
 
 
 /***************  Header ******************/
-.sign-up > span:nth-child(1){
+.sign-up > span:nth-child(1) {
   padding-top: 5px;
 }
 
-#head-link{
+#head-link {
   color: #0077C5;
 }
 
 /***************  Logos *******************/
 
-.main-logo{
+.main-logo {
   display: block;
   width:118px;
   height: 35px;
@@ -92,38 +92,38 @@ footer{
   margin-top: 20px;
 }
 
-.logos-section{
+.logos-section {
   display: block;
   margin: auto;
   width: 400px;
   text-align: center;
 }
 
-.logo{
+.logo {
   display: inline-block;
   height: 25px;
 }
 
 /*****************  Text ******************/
 
-.big-text{
+.big-text {
   font-size: 24px;
   text-align: center;
   font-weight: normal;
   margin-top: 0px;
 }
 
-.normal-text{
+.normal-text {
   font-size: 14px;
   line-height: 1em;
 }
 
-.tiny-text{
+.tiny-text {
   font-size: 10px;
   color: #444;
 }
 
-.error-text{
+.error-text {
   font-size: 14px;
   color: #eb3432;
   margin-top: 15px;
@@ -131,31 +131,31 @@ footer{
   display: none;
 }
 
-.small-text{
+.small-text {
   font-size:12px;
 }
 
-.gray-text{
+.gray-text {
   color: #757575;
 }
 
-.grayOvergray-text{
+.grayOvergray-text {
   color: #8d9096;
 }
 
-.italic-text{
+.italic-text {
   font-style: italic;
 }
 
-.link-text{
+.link-text {
   color: #0077C5;
 }
 
-.align-center{
+.align-center {
   text-align: center;
 }
 
-.text{
+.text {
   display: inline-block;
   text-align: right;
 }
@@ -167,23 +167,23 @@ footer{
   margin: 30px
 }
 
-.title{
+.title {
   margin: auto;
   line-height: 25px;
 }
 
-.description{
+.description {
   padding: 12px;
   line-height: 2px;
 }
 
-.form-content{
+.form-content {
   width: 600px;
   height: 80%;
   margin:auto;
 }
 
-.create-account{
+.create-account {
   width: 100%;
   height: 44px;
   font-size: 1.125em;
@@ -191,12 +191,12 @@ footer{
   text-align: center;
 }
 
-.button-container{
+.button-container {
   align-items: center;
   margin: auto;
 }
 
-.sign-in-button{
+.sign-in-button {
   font-size: 13.5px;
   display: flex;
   text-align:center;
@@ -206,30 +206,30 @@ footer{
   height: 34px;
 }
 
-.sign-text-button{
+.sign-text-button {
   margin: auto;
 }
 
 /***************  Inputs ******************/
 
-.input-box{
+.input-box {
   width: 100%;
   height: 32px;
   border: 1px solid #C1C5C8;
   border-radius: 3px;
 }
-.input-box:active{
+.input-box:active {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
   border: 1px solid #52A8EC;
 }
 
-.input-section{
+.input-section {
   margin-bottom: 50px;
 }
 
 /***************  Footer ******************/
 
-.set-button{
+.set-button {
   position: fixed;
   bottom:2px;
   right:20px;
@@ -237,11 +237,11 @@ footer{
   padding: 10px 12px;
 }
 
-.form-footer{
+.form-footer {
   background-color: #ECEEF1;
   text-align: center;
   padding: 20px;
 }
-.privacy-form{
+.privacy-form {
   text-align: center;
 }
