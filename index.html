@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mint Clone</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+                                      <!-- Here starts the Page (BODY) -->
+
+<body>
+
+                                  <!-- Header Division(Button and Links) -->
+
+    <header>
+        <div class="text">
+            <p class="head-paragraph small-text">
+                Already have an Intuit account?
+            </p>
+            <a id="head-link" class="small-text" href="#">I forgot my User ID or Password</a>
+        </div>
+        <button type="button" class="sign-up sign-in-button">
+            <span class="material-icons">
+                lock
+            </span>
+            <span class="sign-text-button">Sign Up</span>
+
+        </button>
+    </header>
+
+                                    <!-- Form Container -->
+
+    <main class="form-content">
+
+                            <!-- Here is the informations about the Form -->
+        <div class="title">
+            <img class="main-logo" src="img/intuit-logo.png" alt="Intuit Logo">
+
+            <div class="logos-section">
+              <img class='logo' src="img/mint.png" alt="Mint Logo">
+              <img class='logo' src="img/quickbooks.png" alt="Quickbooks Logo">
+              <img class='logo' src="img/turbotax.png" alt="Turbo Tax Logo">
+            </div>
+
+        </div>
+
+                                        <!-- The Form -->
+
+        <form action="www.mint.com" method="post">
+          <section class="form-container">
+            <h2 class='big-text main-text'>Create an Intuit account</h2>
+
+            <div class="description align-center">
+              <p class="normal-text">One account for everything Intuit, including Mint.</p>
+              <a  class="link-text small-text" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+            </div>
+
+            <div class="input-section" >
+              <label class="normal-text" for="email">Email address</label>
+              <div class="input-box" id="section-email">
+                <input id="email" type="text" name="email">
+              </div>
+              <span class="error-text">Please enter a valid email address.</span>
+            </div>
+
+            <div class="input-section">
+              <label class="normal-text" for="phone">Phone (recommended)</label>
+              <div class="input-box" id="section-phone">
+                <input id="phone" type="tel" name="phone">
+              </div>
+                <span class="tiny-text">Standard call, messaging or data rates may apply.</span>
+                <span class="error-text">Please enter a valid phone number including area code</span>
+            </div>
+
+
+            <div class="input-section">
+              <label class="normal-text" for="password">Password</label>
+              <div class="input-box" id="section-password">
+                <input id="password" type="password" name="password">
+              </div>
+            </div>
+            <button type="button" class="create-account button-container">
+                <span class="material-icons lock-icon">
+                    lock
+                </span>
+                Create Account
+            </button>
+
+            <p class="privacy-form small-text italic-text gray-text">
+                By clicking Create account, you agree to our <a class="link-text" href="#">Terms</a> and have read and acknowledge our <a class="link-text" href="#">Privacy Statement</a>.
+
+            </p>
+
+          </section>
+
+                      <!-- reCAPTCHA Container -->
+
+          <div class="form-footer tiny-text grayOvergray-text">
+              <span>Invisible reCAPTCHA by Google <a href="#" class='link-text'>Privacy Policy</a> and <a class="link-text">Terms of Use.</a></span>
+          </div>
+
+        </form>
+
+
+
+
+    </main>
+
+               <!-- Options and Informations Footer -->
+
+
+    <footer class="small-text align-center">
+        <ul>
+            <li>Legal</li>
+            <li>Privacy</li>
+            <li>Security</li>
+        </ul>
+
+        <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. </span>
+        <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+
+    </footer>
+
+                       <!-- Float Button Privacy -->
+
+    <button type="button" class="set-button" name="button">Privacy Setting</button>
+
+    <!-- Javascript Link -->
+
+<script src="main.js"></script>     
+</body>
+
+
+
+</html>
