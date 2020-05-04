@@ -70,7 +70,7 @@ footer {
 
 /***************  Header ******************/
 
-.sign-up > span:nth-child(1) {
+.sign-icon {
   padding-top: 5px;
 }
 
@@ -84,9 +84,7 @@ footer {
   display: block;
   width: 118px;
   height: 35px;
-  margin: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin: 20px auto 20px auto;
 }
 
 .logos-section {
