@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/AdfPizarro/MintClone/form/index.html )
+[Live Demo Link](https://adfpizarro.github.io/MintClone/)
 
 
 ## Authors
